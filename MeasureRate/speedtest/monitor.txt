@@ -1,0 +1,246 @@
+	 RX  1:12:22 TX
+lo 	 11.6776MB/s   11.8291MB/s 
+	 RX  1:12:23 TX
+lo 	 12.6049MB/s   12.4679MB/s 
+	 RX  1:12:24 TX
+lo 	 12.6282MB/s   12.5685MB/s 
+	 RX  1:12:25 TX
+lo 	 12.4708MB/s   12.4534MB/s 
+	 RX  1:12:26 TX
+lo 	 12.4053MB/s   12.5568MB/s 
+	 RX  1:12:27 TX
+lo 	 12.688MB/s   12.6034MB/s 
+	 RX  1:12:28 TX
+lo 	 12.6603MB/s   12.4461MB/s 
+	 RX  1:12:30 TX
+lo 	 12.6282MB/s   12.4446MB/s 
+	 RX  1:12:31 TX
+lo 	 12.414MB/s   12.4373MB/s 
+	 RX  1:12:32 TX
+lo 	 12.4767MB/s   12.3747MB/s 
+	 RX  1:12:33 TX
+lo 	 12.3601MB/s   12.3747MB/s 
+	 RX  1:12:34 TX
+lo 	 12.3382MB/s   12.5073MB/s 
+	 RX  1:12:35 TX
+lo 	 12.3922MB/s   12.5248MB/s 
+	 RX  1:12:36 TX
+lo 	 12.3003MB/s   12.2974MB/s 
+	 RX  1:12:37 TX
+lo 	 12.5524MB/s   12.3965MB/s 
+	 RX  1:12:38 TX
+lo 	 12.6996MB/s   12.328MB/s 
+	 RX  1:12:39 TX
+lo 	 12.3251MB/s   12.3805MB/s 
+	 RX  1:12:40 TX
+lo 	 12.4198MB/s   12.3062MB/s 
+	 RX  1:12:41 TX
+lo 	 12.414MB/s   12.4956MB/s 
+	 RX  1:12:42 TX
+lo 	 12.4825MB/s   12.4563MB/s 
+	 RX  1:12:43 TX
+lo 	 12.433MB/s   12.4096MB/s 
+	 RX  1:12:44 TX
+lo 	 12.4636MB/s   12.484MB/s 
+	 RX  1:12:45 TX
+lo 	 12.6136MB/s   12.516MB/s 
+	 RX  1:12:46 TX
+lo 	 12.4228MB/s   12.3717MB/s 
+	 RX  1:12:47 TX
+lo 	 12.4548MB/s   12.5189MB/s 
+	 RX  1:12:49 TX
+lo 	 12.3674MB/s   12.484MB/s 
+	 RX  1:12:50 TX
+lo 	 12.3878MB/s   12.3615MB/s 
+	 RX  1:12:51 TX
+lo 	 12.5102MB/s   12.3951MB/s 
+	 RX  1:12:52 TX
+lo 	 12.347MB/s   12.43MB/s 
+	 RX  1:12:53 TX
+lo 	 12.3411MB/s   12.3849MB/s 
+	 RX  1:12:54 TX
+lo 	 12.3863MB/s   12.2683MB/s 
+	 RX  1:12:55 TX
+lo 	 12.382MB/s   12.4475MB/s 
+	 RX  1:12:56 TX
+lo 	 12.822MB/s   12.9503MB/s 
+	 RX  1:12:57 TX
+lo 	 12.532MB/s   12.4636MB/s 
+	 RX  1:12:58 TX
+lo 	 12.6894MB/s   12.5306MB/s 
+	 RX  1:12:59 TX
+lo 	 12.6676MB/s   12.5481MB/s 
+	 RX  1:13:00 TX
+lo 	 12.5058MB/s   12.5641MB/s 
+	 RX  1:13:01 TX
+lo 	 12.9459MB/s   12.2581MB/s 
+	 RX  1:13:03 TX
+lo 	 12.5743MB/s   12.3397MB/s 
+	 RX  1:13:04 TX
+lo 	 12.433MB/s   12.5408MB/s 
+	 RX  1:13:05 TX
+lo 	 12.4432MB/s   12.3368MB/s 
+	 RX  1:13:06 TX
+lo 	 12.2814MB/s   12.2785MB/s 
+	 RX  1:13:07 TX
+lo 	 12.2595MB/s   12.2785MB/s 
+	 RX  1:13:08 TX
+lo 	 12.2654MB/s   12.5014MB/s 
+	 RX  1:13:09 TX
+lo 	 12.4009MB/s   12.312MB/s 
+	 RX  1:13:10 TX
+lo 	 12.2829MB/s   12.4344MB/s 
+	 RX  1:13:11 TX
+lo 	 12.6967MB/s   12.6311MB/s 
+	 RX  1:13:12 TX
+lo 	 12.2668MB/s   12.2989MB/s 
+	 RX  1:13:13 TX
+lo 	 12.4548MB/s   12.6544MB/s 
+	 RX  1:13:14 TX
+lo 	 12.3776MB/s   12.4315MB/s 
+	 RX  1:13:15 TX
+lo 	 12.3513MB/s   12.535MB/s 
+	 RX  1:13:16 TX
+lo 	 12.382MB/s   12.5233MB/s 
+	 RX  1:13:17 TX
+lo 	 12.4315MB/s   12.4606MB/s 
+	 RX  1:13:18 TX
+lo 	 12.2566MB/s   12.2581MB/s 
+	 RX  1:13:19 TX
+lo 	 12.261MB/s   12.2843MB/s 
+	 RX  1:13:20 TX
+lo 	 12.2537MB/s   12.2668MB/s 
+	 RX  1:13:21 TX
+lo 	 12.2785MB/s   12.2595MB/s 
+	 RX  1:13:22 TX
+lo 	 12.2581MB/s   12.2799MB/s 
+	 RX  1:13:23 TX
+lo 	 12.2814MB/s   12.3062MB/s 
+	 RX  1:13:24 TX
+lo 	 12.4417MB/s   12.4636MB/s 
+	 RX  1:13:25 TX
+lo 	 12.2785MB/s   12.2668MB/s 
+	 RX  1:13:27 TX
+lo 	 12.2683MB/s   12.2887MB/s 
+	 RX  1:13:28 TX
+lo 	 12.4752MB/s   12.5452MB/s 
+	 RX  1:13:29 TX
+lo 	 12.6501MB/s   12.4708MB/s 
+	 RX  1:13:30 TX
+lo 	 12.4723MB/s   12.4432MB/s 
+	 RX  1:13:31 TX
+lo 	 12.6501MB/s   12.5874MB/s 
+	 RX  1:13:32 TX
+lo 	 12.7055MB/s   12.6399MB/s 
+	 RX  1:13:33 TX
+lo 	 12.2887MB/s   12.4752MB/s 
+	 RX  1:13:34 TX
+lo 	 13.7328MB/s   13.9455MB/s 
+	 RX  1:13:35 TX
+lo 	 12.4985MB/s   12.4592MB/s 
+	 RX  1:13:36 TX
+lo 	 12.4636MB/s   12.3251MB/s 
+	 RX  1:13:37 TX
+lo 	 12.2654MB/s   12.379MB/s 
+	 RX  1:13:38 TX
+lo 	 12.4388MB/s   12.379MB/s 
+	 RX  1:13:40 TX
+lo 	 12.5524MB/s   12.4636MB/s 
+	 RX  1:13:41 TX
+lo 	 12.3003MB/s   12.5277MB/s 
+	 RX  1:13:42 TX
+lo 	 12.3105MB/s   12.398MB/s 
+	 RX  1:13:43 TX
+lo 	 12.7127MB/s   12.7579MB/s 
+	 RX  1:13:44 TX
+lo 	 12.4373MB/s   12.2654MB/s 
+	 RX  1:13:45 TX
+lo 	 12.382MB/s   12.7404MB/s 
+	 RX  1:13:46 TX
+lo 	 12.5991MB/s   12.8118MB/s 
+	 RX  1:13:47 TX
+lo 	 12.4606MB/s   12.4971MB/s 
+	 RX  1:13:48 TX
+lo 	 12.4242MB/s   12.2697MB/s 
+	 RX  1:13:49 TX
+lo 	 12.2479MB/s   12.2595MB/s 
+	 RX  1:13:50 TX
+lo 	 12.2901MB/s   12.2799MB/s 
+	 RX  1:13:51 TX
+lo 	 12.2814MB/s   12.2712MB/s 
+	 RX  1:13:52 TX
+lo 	 12.2683MB/s   12.2668MB/s 
+	 RX  1:13:53 TX
+lo 	 12.2727MB/s   12.2625MB/s 
+	 RX  1:13:54 TX
+lo 	 12.2901MB/s   12.2683MB/s 
+	 RX  1:13:55 TX
+lo 	 12.2654MB/s   12.2741MB/s 
+	 RX  1:13:56 TX
+lo 	 12.2916MB/s   12.2727MB/s 
+	 RX  1:13:57 TX
+lo 	 12.2523MB/s   12.2727MB/s 
+	 RX  1:13:58 TX
+lo 	 12.2523MB/s   12.2552MB/s 
+	 RX  1:13:59 TX
+lo 	 12.2843MB/s   12.2741MB/s 
+	 RX  1:14:01 TX
+lo 	 12.2756MB/s   12.2756MB/s 
+	 RX  1:14:02 TX
+lo 	 12.3717MB/s   12.4679MB/s 
+	 RX  1:14:03 TX
+lo 	 12.3834MB/s   12.3295MB/s 
+	 RX  1:14:04 TX
+lo 	 12.2727MB/s   12.2625MB/s 
+	 RX  1:14:05 TX
+lo 	 12.3717MB/s   12.4402MB/s 
+	 RX  1:14:06 TX
+lo 	 12.7113MB/s   12.4577MB/s 
+	 RX  1:14:07 TX
+lo 	 12.3018MB/s   12.2799MB/s 
+	 RX  1:14:08 TX
+lo 	 12.2683MB/s   12.2683MB/s 
+	 RX  1:14:09 TX
+lo 	 12.2668MB/s   12.277MB/s 
+	 RX  1:14:10 TX
+lo 	 12.2887MB/s   12.2727MB/s 
+	 RX  1:14:11 TX
+lo 	 12.4155MB/s   12.6064MB/s 
+	 RX  1:14:12 TX
+lo 	 12.3892MB/s   12.755MB/s 
+	 RX  1:14:13 TX
+lo 	 12.5874MB/s   12.4024MB/s 
+	 RX  1:14:14 TX
+lo 	 12.4869MB/s   12.2741MB/s 
+	 RX  1:14:15 TX
+lo 	 12.2741MB/s   12.277MB/s 
+	 RX  1:14:16 TX
+lo 	 12.4723MB/s   12.6311MB/s 
+	 RX  1:14:17 TX
+lo 	 12.6166MB/s   12.3688MB/s 
+	 RX  1:14:18 TX
+lo 	 12.2756MB/s   12.2829MB/s 
+	 RX  1:14:19 TX
+lo 	 12.277MB/s   12.2683MB/s 
+	 RX  1:14:20 TX
+lo 	 12.2916MB/s   12.2727MB/s 
+	 RX  1:14:21 TX
+lo 	 5.46147MB/s   5.41776MB/s 
+	 RX  1:14:23 TX
+lo 	 0B/s   0B/s 
+	 RX  1:14:24 TX
+lo 	 0B/s   0B/s 
+	 RX  1:14:25 TX
+lo 	 0B/s   0B/s 
+	 RX  1:14:26 TX
+lo 	 0B/s   0B/s 
+	 RX  1:14:27 TX
+lo 	 0B/s   0B/s 
+	 RX  1:14:28 TX
+lo 	 0B/s   0B/s 
+	 RX  1:14:29 TX
+lo 	 0B/s   0B/s 
+	 RX  1:14:30 TX
+lo 	 0B/s   0B/s 
+	 RX  1:14:31 TX
+lo 	 0B/s   0B/s 
