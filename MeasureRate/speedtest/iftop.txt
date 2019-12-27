@@ -1,0 +1,842 @@
+Listening on lo
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     75.4Mb     75.4Mb     75.4Mb     18.8MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>       936b       936b       936b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>       660b       660b       660b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     75.4Mb     75.4Mb     75.4Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         75.4Mb     75.4Mb     75.4Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     75.4Mb         0b     75.4Mb
+Cumulative (sent/received/total):                    18.8MB         0B     18.8MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     86.5Mb     86.5Mb     43.2MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b       468b       468b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b       330b       330b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     86.5Mb     86.5Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     86.5Mb     86.5Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    43.2MB         0B     43.2MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     90.2Mb     90.2Mb     67.6MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b       312b       312b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b       220b       220b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     90.2Mb     90.2Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     90.2Mb     90.2Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    67.6MB         0B     67.6MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     92.0Mb     92.0Mb     92.0MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b       234b       234b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b       165b       165b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     92.0Mb     92.0Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     92.0Mb     92.0Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    92.0MB         0B     92.0MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     95.4Mb     92.7Mb     92.7Mb      116MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b       187b       187b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b       132b       132b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     95.4Mb     92.7Mb     92.7Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         95.4Mb     92.7Mb     92.7Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     116MB         0B      116MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     93.5Mb      140MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b       156b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b       110b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     93.5Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     93.5Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     140MB         0B      140MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     94.1Mb      165MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b       134b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b        94b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     94.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     94.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     165MB         0B      165MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     94.5Mb      189MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b       117b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b        82b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     94.5Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     94.5Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     189MB         0B      189MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     94.9Mb      213MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b       104b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b        73b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     94.9Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     94.9Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     213MB         0B      213MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     95.4Mb     97.1Mb     94.9Mb      237MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b        94b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b        66b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     95.4Mb     97.1Mb     94.9Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         95.4Mb     97.1Mb     94.9Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     237MB         0B      237MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     95.2Mb      262MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b        85b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b        60b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     95.2Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     95.2Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     262MB         0B      262MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     95.4Mb      286MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b        78b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b        55b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     95.4Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     95.4Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     286MB         0B      286MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     95.5Mb      310MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b        72b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b        51b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     95.5Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     95.5Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     310MB         0B      310MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     95.7Mb      335MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b        67b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b        47b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     95.7Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     95.7Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     335MB         0B      335MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     95.4Mb     97.1Mb     95.7Mb      359MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b        62b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b        44b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     95.4Mb     97.1Mb     95.7Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         95.4Mb     97.1Mb     95.7Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     359MB         0B      359MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     95.8Mb      383MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b        58b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b        41b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     95.8Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     95.8Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     383MB         0B      383MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     95.9Mb      408MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b        55b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b        39b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     95.9Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     95.9Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     408MB         0B      408MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     96.0Mb      432MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b        52b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b        37b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     96.0Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     96.0Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     432MB         0B      432MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     96.1Mb      456MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b        49b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b        35b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     96.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     96.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     456MB         0B      456MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     95.4Mb     97.1Mb     96.0Mb      480MB
+     ubuntu                                   <=         0b         0b         0b         0B
+   2 localhost                                =>         0b         0b        47b       234B
+     localhost                                <=         0b         0b         0b         0B
+   3 localhost                                =>         0b         0b        33b       165B
+     localhost                                <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     95.4Mb     97.1Mb     96.0Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         95.4Mb     97.1Mb     96.0Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     480MB         0B      480MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      505MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     505MB         0B      505MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      529MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     529MB         0B      529MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      553MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     553MB         0B      553MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      578MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     578MB         0B      578MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     95.4Mb     97.1Mb     97.1Mb      602MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     95.4Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         95.4Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     602MB         0B      602MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      626MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     626MB         0B      626MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      650MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     650MB         0B      650MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      675MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     675MB         0B      675MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      699MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     699MB         0B      699MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     95.4Mb     97.1Mb     97.1Mb      723MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     95.4Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         95.4Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     723MB         0B      723MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      747MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     747MB         0B      747MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      772MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     772MB         0B      772MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      796MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     796MB         0B      796MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      821MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     821MB         0B      821MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     95.4Mb     97.1Mb     97.1Mb      844MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     95.4Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         95.4Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     844MB         0B      844MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      869MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     869MB         0B      869MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      893MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     893MB         0B      893MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      918MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     918MB         0B      918MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      942MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     942MB         0B      942MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     95.4Mb     97.1Mb     97.1Mb      966MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     95.4Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         95.4Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     966MB         0B      966MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb      990MB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                     990MB         0B      990MB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb     0.99GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    0.99GB         0B     0.99GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb     1.01GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.01GB         0B     1.01GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb     1.04GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.04GB         0B     1.04GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     95.4Mb     97.1Mb     97.1Mb     1.06GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     95.4Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         95.4Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.06GB         0B     1.06GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb     1.09GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.09GB         0B     1.09GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb     1.11GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.11GB         0B     1.11GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb     1.13GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.13GB         0B     1.13GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb     1.16GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.16GB         0B     1.16GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.6Mb     97.3Mb     1.18GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.6Mb     97.3Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.6Mb     97.3Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.18GB         0B     1.18GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     95.4Mb     97.1Mb     97.1Mb     1.20GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     95.4Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         95.4Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.20GB         0B     1.20GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb     1.23GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.23GB         0B     1.23GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb     1.25GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.25GB         0B     1.25GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb     1.28GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.28GB         0B     1.28GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.3Mb     1.30GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.3Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.3Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.30GB         0B     1.30GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     95.4Mb     97.1Mb     97.1Mb     1.32GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     95.4Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         95.4Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.32GB         0B     1.32GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb     1.35GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.35GB         0B     1.35GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb     1.37GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:                                      0b         0b         0b
+Total send and receive rate:                         97.6Mb     97.1Mb     97.1Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     97.6Mb         0b     97.6Mb
+Cumulative (sent/received/total):                    1.37GB         0B     1.37GB
+============================================================================================
+
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ubuntu                                   =>     97.6Mb     97.1Mb     97.1Mb     1.39GB
+     ubuntu                                   <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     97.6Mb     97.1Mb     97.1Mb
+Total receive rate:              
