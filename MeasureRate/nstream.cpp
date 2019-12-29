@@ -123,8 +123,9 @@ double get_ratio(int idx){
 	for(int i=0; i<sz; i++){
 		for(int j=i+1; j<sz; j++){
 			if(sample[j]-sample[i]<L) continue;
-			if((j-i+1)*(j-i+1)/(sample[j]-sample[i])>F){								F = ((j-i+1)*(j-i+1)/(sample[j]-sample[i]));
-			   l=i, r=j;
+			if((j-i+1)*(j-i+1)/(sample[j]-sample[i])>F){
+				F = ((j-i+1)*(j-i+1)/(sample[j]-sample[i]));
+				l=i, r=j;
 			}
 		}
 	}
@@ -173,9 +174,35 @@ unsigned short big2small(unsigned short x){
     return now;
 }
 
+void test_func(int signal_number){
+    for(int now_id = 1; now_id<=stream_id; now_id++){
+        double ratio = 1.0*tot_ippkt_len[now_id]/(interval)*8/1000;
+        if(q[now_id].size()<QUEUE_SIZE){
+            q[now_id].push(ratio);
+        }
+        else{
+            q[now_id].pop();
+            q[now_id].push(ratio);
+        }
+        double smooth_ratio = get_ratio(now_id);
+        printf("stream%d: %lf\n",now_id, smooth_ratio);
+        start[now_id] += interval;
+        nxt[now_id] += interval;
+        tot_ippkt_len[now_id] = 0;
+     }
 
+}
 
+void init_sigaction()
+{
+    struct sigaction act;
 
+    act.sa_handler = test_func;
+    act.sa_flags  = 0;
+
+    sigemptyset(&act.sa_mask);
+    sigaction(SIGPROF, &act, NULL);
+}
 
 u_char* handle_IP
         (u_char *args,const struct pcap_pkthdr* pkthdr,const u_char*
@@ -276,40 +303,32 @@ u_char* handle_IP
     }
 	*/
     //printf("%u\n", ip->ip_src.s_addr);
-    //toStringIP(ip->ip_src.s_addr, stringIP);
-    //puts(stringIP);
-    //printf("%s\n", stringIP);
-
-    //toStringIP(ip->ip_dst.s_addr, stringIP);
-    //puts(stringIP);
-
-    //printf("%s\n", stringIP);
-    struct timeval tv;
-    gettimeofday(&tv,NULL);
-	long long now = tv.tv_sec*1000 + tv.tv_usec/1000;
-	int now_id = -1;
 	if(mp[mk(src_port, dst_port)] == 0){
 		mp[mk(src_port, dst_port)] = ++stream_id;
 	}
-	now_id = mp[mk(src_port, dst_port)];
+	int now_id = mp[mk(src_port, dst_port)];
     //printf("%d\n", now_id);
+    /*
     if(fabs(start[now_id]+1)<1e-2){
         start[now_id] = tv.tv_sec*1000 + tv.tv_usec/1000;
 		nxt[now_id] = start[now_id]+interval;
     }
+    */
 	/*
 	if(tv.tv_sec*1000 + tv.tv_usec/1000 > start+1.5*interval){
 		start = tv.tv_sec*1000 + tv.tv_usec/1000;
 		nxt_end = start+interval;
 	}
 	*/
+    /*
 	if(now-start[now_id]>=2*interval){
 		start[now_id] = tv.tv_sec*1000 + tv.tv_usec/1000;
 		nxt[now_id] = start[now_id]+interval;
 		tot_ippkt_len[now_id] = 0;
 	}
-	
-	last_time = tv.tv_sec*1000 + tv.tv_usec/1000;	
+	*/
+	//last_time = tv.tv_sec*1000 + tv.tv_usec/1000;	
+    /*
     if(tv.tv_sec*1000 + tv.tv_usec/1000 >= nxt[now_id]){
 	double ratio = 1.0*tot_ippkt_len[now_id]/(interval)*8/1000;
 	if(q[now_id].size()<QUEUE_SIZE){
@@ -325,11 +344,10 @@ u_char* handle_IP
 		nxt[now_id] += interval;
         tot_ippkt_len[now_id] = 0;
 	}
+    */
 	//tot_ippkt_len += 1500;
 	tot_ippkt_len[now_id] += (len-PACKET_HEADER);
 	tot_packet++;
-	//printf("%d\n", len);
-	//printf("%d\n", tot_packet);
     return NULL;
 }
 
@@ -400,6 +418,16 @@ void handler(int sig)
 	exit(0);
 }
 
+void init_time()
+{
+    struct itimerval val;
+
+    val.it_value.tv_sec = interval/1000;
+    val.it_value.tv_usec = (interval%1000)*1000;
+    val.it_interval = val.it_value;
+    setitimer(ITIMER_PROF, &val, NULL);
+}
+
 
 int main(int argc,char **argv)
 {
@@ -446,7 +474,8 @@ int main(int argc,char **argv)
 	if(argc > 3){
 		interval = c2number(argv[3]);
 	}
-
+    init_sigaction();
+    init_time();
     /* ... and loop */
     pcap_loop(descr,-1,my_callback,args);
 
