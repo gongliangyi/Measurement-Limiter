@@ -15,17 +15,19 @@ sudo make
 sudo make install
 cd ..
 
-cd flex-2-5-35
-./configure
-sudo make
-sudo make install
-cd ..
+if grep -Eqi "CentOS" /etc/issue || grep -Eq "CentOS" /etc/*-release; then
+	echo 'y' | yum install flex
+elif grep -Eqi "Ubuntu" /etc/issue || grep -Eq "Ubuntu" /etc/*-release; then
+    sudo apt install flex	
+fi
 
 cd bison-2.4.1
 ./configure
 sudo make
 sudo make install
 cd ..
+
+ldconfig
 
 cd libpcap-1.9.1
 ./configure
@@ -34,6 +36,3 @@ sudo make install
 cd ..
 
 ldconfig
-
-wget https://github.com/baolintian/shaper/blob/master/interval.c
-gcc -o interval interval.c -lpcap
