@@ -17,8 +17,14 @@ cd ..
 
 if grep -Eqi "CentOS" /etc/issue || grep -Eq "CentOS" /etc/*-release; then
 	echo 'y' | yum install flex
+	echo 'y' | yum install bison
+	echo 'y' | yum install git
+	echo 'y' | yum install gcc-c++
 elif grep -Eqi "Ubuntu" /etc/issue || grep -Eq "Ubuntu" /etc/*-release; then
-    sudo apt install flex	
+    sudo apt install flex
+	sudo apt install bison
+	sudo apt install git
+	sudo apt install g++
 fi
 
 cd bison-2.4.1
@@ -30,6 +36,7 @@ cd ..
 ldconfig
 
 cd libpcap-1.9.1
+ldconfig
 ./configure
 sudo make
 sudo make install
