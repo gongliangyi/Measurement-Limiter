@@ -43,3 +43,9 @@ sudo make install
 cd ..
 
 ldconfig
+
+cd libpcap-1.9.1
+./configure
+sudo make
+sudo make install
+cd ..
