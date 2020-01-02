@@ -1,0 +1,37 @@
+PING 152.136.34.107 (152.136.34.107): 56 data bytes
+64 bytes from 152.136.34.107: icmp_seq=0 ttl=52 time=21.610 ms
+64 bytes from 152.136.34.107: icmp_seq=1 ttl=52 time=10.581 ms
+64 bytes from 152.136.34.107: icmp_seq=2 ttl=52 time=13.183 ms
+64 bytes from 152.136.34.107: icmp_seq=3 ttl=52 time=12.662 ms
+64 bytes from 152.136.34.107: icmp_seq=4 ttl=52 time=11.510 ms
+64 bytes from 152.136.34.107: icmp_seq=5 ttl=52 time=25.246 ms
+64 bytes from 152.136.34.107: icmp_seq=6 ttl=52 time=11.331 ms
+64 bytes from 152.136.34.107: icmp_seq=7 ttl=52 time=30.729 ms
+64 bytes from 152.136.34.107: icmp_seq=8 ttl=52 time=15.254 ms
+64 bytes from 152.136.34.107: icmp_seq=9 ttl=52 time=10.942 ms
+64 bytes from 152.136.34.107: icmp_seq=10 ttl=52 time=12.422 ms
+64 bytes from 152.136.34.107: icmp_seq=11 ttl=52 time=22.074 ms
+64 bytes from 152.136.34.107: icmp_seq=12 ttl=52 time=27.823 ms
+64 bytes from 152.136.34.107: icmp_seq=13 ttl=52 time=21.924 ms
+64 bytes from 152.136.34.107: icmp_seq=14 ttl=52 time=17.403 ms
+64 bytes from 152.136.34.107: icmp_seq=15 ttl=52 time=11.764 ms
+64 bytes from 152.136.34.107: icmp_seq=16 ttl=52 time=11.368 ms
+64 bytes from 152.136.34.107: icmp_seq=17 ttl=52 time=40.114 ms
+64 bytes from 152.136.34.107: icmp_seq=18 ttl=52 time=11.122 ms
+64 bytes from 152.136.34.107: icmp_seq=19 ttl=52 time=10.744 ms
+64 bytes from 152.136.34.107: icmp_seq=20 ttl=52 time=11.250 ms
+64 bytes from 152.136.34.107: icmp_seq=21 ttl=52 time=10.875 ms
+64 bytes from 152.136.34.107: icmp_seq=22 ttl=52 time=22.193 ms
+64 bytes from 152.136.34.107: icmp_seq=23 ttl=52 time=22.260 ms
+64 bytes from 152.136.34.107: icmp_seq=24 ttl=52 time=35.139 ms
+64 bytes from 152.136.34.107: icmp_seq=25 ttl=52 time=15.561 ms
+64 bytes from 152.136.34.107: icmp_seq=26 ttl=52 time=22.041 ms
+64 bytes from 152.136.34.107: icmp_seq=27 ttl=52 time=11.251 ms
+64 bytes from 152.136.34.107: icmp_seq=28 ttl=52 time=12.455 ms
+64 bytes from 152.136.34.107: icmp_seq=29 ttl=52 time=11.942 ms
+64 bytes from 152.136.34.107: icmp_seq=30 ttl=52 time=10.675 ms
+64 bytes from 152.136.34.107: icmp_seq=31 ttl=52 time=11.267 ms
+
+--- 152.136.34.107 ping statistics ---
+32 packets transmitted, 32 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 10.581/17.085/40.114/7.793 ms
