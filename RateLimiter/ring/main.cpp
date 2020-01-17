@@ -68,10 +68,8 @@ struct Ring{
     }
     void in_ring(){
         while(!inque.empty()){
-			printf("%lf %lf\n", inque.front().arrival_time+latency, tot_round*0.1);
             if(inque.front().arrival_time+latency<tot_round*0.1){
                 inque.pop();
-				printf("yep");
                 continue;
             }
             else{
