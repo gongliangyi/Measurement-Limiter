@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
+    freopen("iperf_send.txt", "r", stdin);
+    freopen("retr.txt", "w", stdout);
     string line;
     bool id = false;
     while(getline(cin, line)){

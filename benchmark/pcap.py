@@ -22,23 +22,37 @@ if __name__ == "__main__":
     send_number1 = 0
     seq_num = []
     time_stamp = []
+    time_stamp_mp = {}
+    time_stamp_idx = {}
+    same = 0
+    
     for item in data:
         
 #        if 'data' not in item['_source']['layers'].keys():
 #            continue
+        if item['_source']['layers']['frame']['frame.time_epoch'] is None:
+            continue
+        if 'tcp' not in item['_source']['layers'].keys():
+            continue
+        val = item['_source']['layers']['tcp']['tcp.options']
         if 'ip' not in item['_source']['layers'].keys():
             continue
-        if item['_source']['layers']['ip']['ip.src'] == "155.138.226.26" and item['_source']['layers']['ip']['ip.dst'] == "144.202.27.162":
+        if item['_source']['layers']['ip']['ip.src'] == "45.32.222.78" and item['_source']['layers']['ip']['ip.dst'] == "66.42.83.241":
             send_number1 += 1
         timestamp = eval(item['_source']['layers']['frame']['frame.time_epoch'])
-        time_stamp.append(timestamp)
-        seq = item['_source']['layers']["tcp"]["tcp.seq"]
-        seq_num.append(int(seq))
         
-    idx = 0
+        hash_val = hash(val)
+        if hash_val in time_stamp_mp.keys():
+            same+=1
+        else:
+            time_stamp_mp[hash_val] = timestamp
+            
+        
     f = open("./send.json", "r", encoding = "utf-8")
     data = json.load(f)
-    le = 0
+    vis = {}
+    same1=0
+    front = 0
     for item in data:
         if item['_source']['layers']['frame']['frame.time_epoch'] is None:
             continue
@@ -46,19 +60,26 @@ if __name__ == "__main__":
 #        if 'data' not in item['_source']['layers'].keys():
 #            continue
 #        print(item['_source']['layers']['ip']['ip.src'])
+        if 'tcp' not in item['_source']['layers'].keys():
+            continue
+        val = item['_source']['layers']['tcp']['tcp.options']
         if 'ip' not in item['_source']['layers'].keys():
             continue
-        if item['_source']['layers']['ip']['ip.src'] == "155.138.226.26" and item['_source']['layers']['ip']['ip.dst'] == "144.202.27.162":
+        if item['_source']['layers']['ip']['ip.src'] == "45.32.222.78" and item['_source']['layers']['ip']['ip.dst'] == "66.42.83.241":
             send_number += 1
         #hash_val = hash(item['_source']['layers']['data']['data.data'])
-        seq = item['_source']['layers']["tcp"]["tcp.seq"]
         timestamp = eval(item['_source']['layers']['frame']['frame.time_epoch'])
-        if int(seq) != seq_num[idx]:
+        hash_val = hash(val)
+        #give up some small packets because they all are same and hard to figure out
+        if front < 20:
+            front += 1
             continue
+        if val not in vis.keys():
+            print("%.4f"%(abs(timestamp-time_stamp_mp[hash_val])*2*1000), file=fd)
+            vis[hash_val] = True
         else:
-            print("%.7lf"%abs(time_stamp[idx]-timestamp), file=fd)
-            idx += 1
-        if idx>=len(seq_num):
-            break
+            same1+=1
+    print(same)
+    print(same1)
     fd.close()
     
