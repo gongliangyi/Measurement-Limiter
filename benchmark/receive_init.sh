@@ -3,7 +3,6 @@
 cd ~
 
 apt-get update
-apt install git
 apt install make
 echo "y" | apt install apache2
 apt git clone https://github.com/gongliangyi/Measurement-Limiter
@@ -15,6 +14,7 @@ cd iperf
 ./configure
 make
 make install
+ldconfig
 
 cd ~
-mv ./Measurement-Limiter/benchmark/receive.sh ./
+mv ./Measurement-Limiter/benchmark/receiver.sh ./

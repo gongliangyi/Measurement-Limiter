@@ -3,9 +3,8 @@
 cd ~
 
 apt-get update
-apt install git
 apt install make
-echo "y" | apt install tshark
+echo "Yes" | apt install tshark
 echo "y" | apt install python3
 apt git clone https://github.com/gongliangyi/Measurement-Limiter
 apt git clone https://github.com/magnific0/wondershaper
@@ -24,5 +23,8 @@ cd iperf
 ./configure
 make
 make install
+ldconfig
 cd ~
 mv ./Measurement-Limiter/benchmark/cpu_overhead.sh ./
+mv ./Measurement-Limiter/benchmark/pcap.sh ./
+mv ./Measurement-Limiter/benchmark/sender.sh ./

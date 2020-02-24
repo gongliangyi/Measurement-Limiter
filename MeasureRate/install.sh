@@ -21,10 +21,10 @@ if grep -Eqi "CentOS" /etc/issue || grep -Eq "CentOS" /etc/*-release; then
 	echo 'y' | yum install git
 	echo 'y' | yum install gcc-c++
 elif grep -Eqi "Ubuntu" /etc/issue || grep -Eq "Ubuntu" /etc/*-release; then
-    sudo apt install flex
-	sudo apt install bison
-	sudo apt install git
-	sudo apt install g++
+    echo 'y' | sudo apt install flex
+	echo 'y' | sudo apt install bison
+	echo 'y' | sudo apt install git
+	echo 'y' | sudo apt install g++
 fi
 
 cd bison-2.4.1
