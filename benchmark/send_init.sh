@@ -1,5 +1,7 @@
 #! /bin/bash
 
+cd ~
+
 apt-get update
 apt install git
 apt install make
