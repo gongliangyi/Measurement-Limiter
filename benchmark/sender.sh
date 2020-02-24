@@ -27,7 +27,7 @@ wondershaper -a ens3 -u 10240
 
 function iperf3(){
 	
-	timeout 31 iperf3 -c 66.42.83.241 -p 5001 -i 0.1 -l 1460 -t 30 -b 12m > iperf_send.txt
+	timeout 31 iperf3 -c 144.202.27.162 -p 5001 -i 0.1 -l 1460 -t 30 -b 12m > iperf_send.txt
 }
 
 function testspeed(){
@@ -52,7 +52,7 @@ echo "finished"
 #
 ###############################################
 
-wget http://66.42.83.241/receive.cap
+wget http://144.202.27.162/receive.cap
 
 tshark -r send.cap -T json >send.json
 tshark -r receive.cap -T json >receive.json

@@ -28,7 +28,7 @@ if __name__ == "__main__":
 #            continue
         if 'ip' not in item['_source']['layers'].keys():
             continue
-        if item['_source']['layers']['ip']['ip.src'] == "45.32.222.78" and item['_source']['layers']['ip']['ip.dst'] == "66.42.83.241":
+        if item['_source']['layers']['ip']['ip.src'] == "155.138.226.26" and item['_source']['layers']['ip']['ip.dst'] == "144.202.27.162":
             send_number1 += 1
         timestamp = eval(item['_source']['layers']['frame']['frame.time_epoch'])
         time_stamp.append(timestamp)
@@ -48,7 +48,7 @@ if __name__ == "__main__":
 #        print(item['_source']['layers']['ip']['ip.src'])
         if 'ip' not in item['_source']['layers'].keys():
             continue
-        if item['_source']['layers']['ip']['ip.src'] == "45.32.222.78" and item['_source']['layers']['ip']['ip.dst'] == "66.42.83.241":
+        if item['_source']['layers']['ip']['ip.src'] == "155.138.226.26" and item['_source']['layers']['ip']['ip.dst'] == "144.202.27.162":
             send_number += 1
         #hash_val = hash(item['_source']['layers']['data']['data.data'])
         seq = item['_source']['layers']["tcp"]["tcp.seq"]
