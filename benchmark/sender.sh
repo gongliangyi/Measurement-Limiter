@@ -31,7 +31,7 @@ function iperf3(){
 }
 
 function testspeed(){
-	timeout 35 /root/Measurement-Limiter/MeasureRate/speed ens3 "dst port 5001" 100 > speed_data.txt
+	timeout 35 /root/Measurement-Limiter/MeasureRate/speed ens3 "dst port 5001" 100
 }
 
 function latency(){
