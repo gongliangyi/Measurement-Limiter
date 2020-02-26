@@ -27,7 +27,7 @@ function iperf3(){
 }
 
 function testspeed(){
-	timeout 35 /root/Measurement-Limiter/MeasureRate/speed $DEV "dst port 5001" $(($INTERVAL*1000))
+	timeout 35 /root/Measurement-Limiter/MeasureRate/speed $DEV "dst port 5001" $(echo "scale=0; $INTERVAL*1000" | bc)
 }
 
 function latency(){
