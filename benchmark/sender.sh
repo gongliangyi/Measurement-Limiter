@@ -23,18 +23,18 @@ DEV="ens3"
 
 function iperf3(){
 	
-	timeout 31 iperf3 -c "$IPERF_COMMAND" > iperf_send.txt
+	timeout 31 iperf3 $IPERF_COMMAND > iperf_send.txt
 }
 
 function testspeed(){
-	timeout 35 /root/Measurement-Limiter/MeasureRate/speed $DEV "dst port 5001" $(echo "scale=0; $INTERVAL*1000" | bc)
+	timeout 35 /root/speed $DEV "dst port 5001" $(echo "scale=0; $INTERVAL*1000" | bc)
 }
 
 function latency(){
 	timeout 35 tcpdump -i $DEV dst port 5001 -w send.cap > /dev/zero
 }
 
-while getopts htun:i:p:l:s: o
+while getopts htun:i:p:l:s:a:b: o
 do	case "$o" in
 	h)		usage
 			exit 1;;
@@ -47,8 +47,8 @@ do	case "$o" in
 	l)      LIMIT_COMMAND=$OPTARG
 			ISLIMIT=1;;
 	s) 		SPEED=$OPTARG;;
-	a)		SRC=$OPTARG
-	b)		DST=$OPTARG
+	a)		SRC=$OPTARG;;
+	b)		DST=$OPTARG;;
 	[?])	usage
 			exit 1;;
 	esac
@@ -64,7 +64,7 @@ PREFIX=$PREFIX$STREAM_NUMBER'S'$SPEED'Mbps'
 
 
 
-if[ ISLIMIT ];then
+if [ ISLIMIT ];then
 	wondershaper -c -a ens3
 	wondershaper -a ens3 -u 10240
 fi
@@ -100,10 +100,14 @@ fi
 
 ./tcp_Retr
 
-mkdir $PREFIX
+if [ ! -f "$PREFIX" ];then
+	mkdir $PREFIX
+fi
 
 mv iperf_send.txt latency.txt speed_data.txt ./$PREFIX
-if [ "$PROTOCOL" == "tcp"];then
+if [ "$PROTOCOL" == "TCP"];then
 	mv retr.txt ./$PREFIX
 else
 	mv jitter.txt ./$PREFIX
+fi
+

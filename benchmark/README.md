@@ -24,3 +24,17 @@ tcp or udp
 interval
 
 T1S10M
+
+
+
+问题记录：
+
+安装Tshark的时候会有交互的界面
+
+receiver:
+
+iperf3 -s -p 5001
+
+
+
+bash ./sender.sh -a 144.202.27.162 -b 155.138.226.26 -t -n 1 -i 0.1 -p "-c 155.138.226.26 -p 5001 -i 0.1 -l 1460 -t 30 -b 12m" -l "test" -s 10
