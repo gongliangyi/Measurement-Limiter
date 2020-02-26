@@ -9,9 +9,6 @@ the shell scripts descriptions.
 EOF
 }
 
-
-
-
 ISLIMIT=
 LIMIT_COMMAND=""
 INTERVAL=0.1
@@ -95,6 +92,10 @@ python3 ./pcap.py -s $SRC -d $DST
 
 if [ ! -f "tcp_Retr" ];then
 	g++ -o tcp_Retr tcp_Retr.cpp
+fi
+
+if [ ! -f "jitter" ];then
+	g++ -o jitter jitter.cpp
 fi
 
 ./tcp_Retr
