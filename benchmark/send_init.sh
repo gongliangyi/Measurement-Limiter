@@ -6,9 +6,9 @@ apt-get update
 apt install make
 echo "Yes" | apt install tshark
 echo "y" | apt install python3
-git clone https://github.com/gongliangyi/Measurement-Limiter
-git clone https://github.com/magnific0/wondershaper
 
+cd ~
+git clone https://github.com/magnific0/wondershaper
 cd wondershaper
 make install
 

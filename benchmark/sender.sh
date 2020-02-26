@@ -82,8 +82,8 @@ echo "finished"
 #
 ###############################################
 
-url="http://$SRC/receive.cap"
-wget url
+url="http://$DST/receive.cap"
+wget $url
 
 tshark -r send.cap -T json >send.json
 tshark -r receive.cap -T json >receive.json
@@ -100,14 +100,17 @@ fi
 
 ./tcp_Retr
 
-if [ ! -f "$PREFIX" ];then
+if [ ! -d "/$PREFIX" ];then
 	mkdir $PREFIX
 fi
 
 mv iperf_send.txt latency.txt speed_data.txt ./$PREFIX
-if [ "$PROTOCOL" == "TCP"];then
+if [ "$PROTOCOL" == "TCP" ];then
 	mv retr.txt ./$PREFIX
 else
 	mv jitter.txt ./$PREFIX
 fi
 
+rm *.txt
+rm *.json
+rm *.cap

@@ -5,6 +5,7 @@ apt install make
 echo "y" | apt install apache2
 git clone https://github.com/gongliangyi/Measurement-Limiter
 git clone https://github.com/magnific0/wondershaper
+mv ./wondershaper ~/
 
 bash ~/Measurement-Limiter/MeasureRate/install.sh
 
