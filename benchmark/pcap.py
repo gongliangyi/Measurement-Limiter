@@ -1,13 +1,25 @@
 import json
-import sys
+import sys, getopt
 
-def write_txt(lst):
-    with open('line.txt', 'w') as f:
-        length = len(lst)
-        for i in range(length):
-            f.write(str(lst[i])+'\n')
+# python3 ./pcap.py -s 45.32.222.78 -d 66.42.83.241
 
-
+def get_arg(argv):
+	src = ""
+	dst = ""
+	try:
+		opts, args = getopt.getopt(argv,"hs:d:",["source=","destinate="])
+	except getopt.GetoptError:
+		print ('pcap.py -s <source ip> -d <destinate ip>')
+		sys.exit(2)
+	for opt, arg in opts:
+		if opt == '-h':
+			print ('pcap.py -s <source ip> -d <destinate ip>')
+			sys.exit()
+		elif opt in ("-s", "--source"):
+			src = arg
+		elif opt in ("-d", "--destinate"):
+			dst = arg
+	return src, dst
 
 if __name__ == "__main__":
     
@@ -25,7 +37,8 @@ if __name__ == "__main__":
     time_stamp_mp = {}
     time_stamp_idx = {}
     same = 0
-    
+    src, dst = get_arg(sys.argv[1:])
+	
     for item in data:
         
 #        if 'data' not in item['_source']['layers'].keys():
@@ -37,7 +50,7 @@ if __name__ == "__main__":
         val = item['_source']['layers']['tcp']['tcp.options']
         if 'ip' not in item['_source']['layers'].keys():
             continue
-        if item['_source']['layers']['ip']['ip.src'] == "45.32.222.78" and item['_source']['layers']['ip']['ip.dst'] == "66.42.83.241":
+        if item['_source']['layers']['ip']['ip.src'] == src and item['_source']['layers']['ip']['ip.dst'] == dst:
             send_number1 += 1
         timestamp = eval(item['_source']['layers']['frame']['frame.time_epoch'])
         
@@ -65,7 +78,7 @@ if __name__ == "__main__":
         val = item['_source']['layers']['tcp']['tcp.options']
         if 'ip' not in item['_source']['layers'].keys():
             continue
-        if item['_source']['layers']['ip']['ip.src'] == "45.32.222.78" and item['_source']['layers']['ip']['ip.dst'] == "66.42.83.241":
+        if item['_source']['layers']['ip']['ip.src'] == src and item['_source']['layers']['ip']['ip.dst'] == dst:
             send_number += 1
         #hash_val = hash(item['_source']['layers']['data']['data.data'])
         timestamp = eval(item['_source']['layers']['frame']['frame.time_epoch'])
