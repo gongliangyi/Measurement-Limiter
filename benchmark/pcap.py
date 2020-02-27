@@ -88,6 +88,8 @@ if __name__ == "__main__":
             front += 1
             continue
         if val not in vis.keys():
+			if hash_val not in time_stamp_mp.keys():
+				continue
             print("%.4f"%(abs(timestamp-time_stamp_mp[hash_val])*2*1000), file=fd)
             vis[hash_val] = True
         else:
