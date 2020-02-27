@@ -103,7 +103,7 @@ fi
 ./tcp_Retr
 
 if [  -d "/$PREFIX" ];then
-	rm -rf $PREFIX/
+	rm -rf "$PREFIX/"
 fi
 mkdir $PREFIX
 mv iperf_send.txt latency.txt speed_data.txt ./$PREFIX
