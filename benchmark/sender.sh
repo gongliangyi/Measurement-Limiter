@@ -67,8 +67,8 @@ PREFIX=$PREFIX$STREAM_NUMBER'S'$SPEED'Mbps'
 
 
 if [ ISLIMIT ];then
-	wondershaper -c -a ens3
-	wondershaper -a ens3 -u 10240
+	wondershaper -c -a $DEV
+	$LIMIT_COMMAND
 fi
 
 ntpdate -u ntp.api.bz > /dev/zero
