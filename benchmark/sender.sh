@@ -27,7 +27,7 @@ function iperf3(){
 }
 
 function testspeed(){
-	temp=$(echo "scale=0; $INTERVAL*1000" | bc)
+	temp=$(echo $(echo "scale=0; $INTERVAL*1000" | bc) | awk -F. '{print $1}')
 	echo "speedtest interval" $temp
 	timeout 35 /root/speed $DEV "dst port 5001" $temp
 }
@@ -102,10 +102,10 @@ fi
 
 ./tcp_Retr
 
-if [ ! -d "/$PREFIX" ];then
-	mkdir $PREFIX
+if [  -d "/$PREFIX" ];then
+	rm -r $PREFIX
 fi
-
+mkdir $PREFIX
 mv iperf_send.txt latency.txt speed_data.txt ./$PREFIX
 if [ "$PROTOCOL" == "TCP" ];then
 	mv retr.txt ./$PREFIX
