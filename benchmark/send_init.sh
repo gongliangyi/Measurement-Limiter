@@ -4,8 +4,10 @@ cd ~
 
 apt-get update
 apt install make
+apt install ntpdate
 echo "Yes" | apt install tshark
 echo "y" | apt install python3
+
 
 cd ~
 git clone https://github.com/magnific0/wondershaper

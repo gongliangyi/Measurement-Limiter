@@ -27,7 +27,9 @@ function iperf3(){
 }
 
 function testspeed(){
-	timeout 35 /root/speed $DEV "dst port 5001" $(echo "scale=0; $INTERVAL*1000" | bc)
+	temp=$(echo "scale=0; $INTERVAL*1000" | bc)
+	echo "speedtest interval" $temp
+	timeout 35 /root/speed $DEV "dst port 5001" $temp
 }
 
 function latency(){
@@ -69,7 +71,7 @@ if [ ISLIMIT ];then
 	wondershaper -a ens3 -u 10240
 fi
 
-
+ntpdate -u ntp.api.bz > /dev/zero
 (iperf3 &); (testspeed &); (timeout 35 bash ./cpu_overhead.sh >> cpu.txt &); (latency &)
 
 sleep 45
