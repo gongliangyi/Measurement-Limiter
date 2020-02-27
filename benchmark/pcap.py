@@ -84,7 +84,7 @@ if __name__ == "__main__":
         timestamp = eval(item['_source']['layers']['frame']['frame.time_epoch'])
         hash_val = hash(val)
         #give up some small packets because they all are same and hard to figure out
-        if front < 20:
+        if front < 50:
             front += 1
             continue
         if val not in vis.keys():

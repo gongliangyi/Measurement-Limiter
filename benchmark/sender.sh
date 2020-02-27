@@ -100,13 +100,17 @@ if [ ! -f "jitter" ];then
 	g++ -o jitter jitter.cpp
 fi
 
-./tcp_Retr
+if [ "$PROTOCOL" == "TCP" ];then
+	./tcp_Retr
+else
+	./jitter
+fi
 
 if [  -d "/$PREFIX" ];then
 	rm -rf "$PREFIX/"
 fi
 mkdir $PREFIX
-mv iperf_send.txt latency.txt speed_data.txt ./$PREFIX
+mv iperf_send.txt latency.txt speed_data.txt cpu.txt ./$PREFIX
 if [ "$PROTOCOL" == "TCP" ];then
 	mv retr.txt ./$PREFIX
 else
