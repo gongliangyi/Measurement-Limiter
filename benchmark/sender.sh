@@ -92,10 +92,10 @@ PREFIX=$PREFIX$STREAM_NUMBER'S'$SPEED'Mbps'
 
 if [ ISLIMIT ];then
 	wondershaper -c -a $DEV
+	tc qd del dev $DEV root
 	$LIMIT_COMMAND
 fi
 
-ntpdate -u ntp.api.bz > /dev/zero
 (iperf3 &); (testspeed &); (timeout 35 bash ./cpu_overhead.sh >> cpu.txt &); (latency &)
 
 sleep 45

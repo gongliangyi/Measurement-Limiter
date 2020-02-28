@@ -24,8 +24,6 @@ EXAMPLES:
 		bash ./sender.sh -a 144.202.27.162 -b 155.138.226.26 -t -n 5 -i 0.1 -p "-c 155.138.226.26 -p 5001 -i 0.1 -l 1460 -t 30 -b 1.2m" -l "wondershaper -a ens3 -u 1024" -s 1
 	UDP 5 stream 1.2Mbps:
 		bash ./sender.sh -a 144.202.27.162 -b 155.138.226.26 -u -n 5 -i 0.1 -p "-c 155.138.226.26 -p 5001 -i 0.1 -l 1460 -t 30 -b 1.2m -p 5" -l "wondershaper -a ens3 -u 1024" -s 1
-
-
 ```
 
 
