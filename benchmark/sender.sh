@@ -57,7 +57,7 @@ function testspeed(){
 }
 
 function latency(){
-	timeout 35 tcpdump -i $DEV ip host $SRC and ip host $DST -w send.cap > /dev/zero
+	timeout 35 tcpdump -i $DEV ip host $SRC and ip host $DST -w send.pcap > /dev/zero
 }
 
 while getopts htun:i:p:l:s:a:b: o
@@ -108,7 +108,7 @@ echo "finished"
 #
 ###############################################
 
-tshark -r test.pcap -2Y "tcp.analysis.ack_rtt" -T fields -e tcp.analysis.ack_rtt > latency.txt
+tshark -r send.pcap -2Y "tcp.analysis.ack_rtt" -T fields -e tcp.analysis.ack_rtt > latency.txt
 
 
 if [ ! -f "tcp_Retr" ];then
@@ -125,7 +125,7 @@ else
 	./jitter
 fi
 
-if [  -d "/$PREFIX" ];then
+if [  -d "$PREFIX/" ];then
 	rm -rf "$PREFIX/"
 fi
 mkdir $PREFIX
