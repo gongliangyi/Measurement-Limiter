@@ -2,8 +2,6 @@
 
 apt-get update
 apt install make
-apt install ntpdate
-echo "y" | apt install apache2
 git clone https://github.com/gongliangyi/Measurement-Limiter
 git clone https://github.com/magnific0/wondershaper
 mv ./wondershaper ~/

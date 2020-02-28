@@ -57,7 +57,7 @@ function testspeed(){
 }
 
 function latency(){
-	timeout 35 tcpdump -i $DEV dst port 5001 -w send.cap > /dev/zero
+	timeout 35 tcpdump -i $DEV ip host $SRC and ip host $DST -w send.cap > /dev/zero
 }
 
 while getopts htun:i:p:l:s:a:b: o
@@ -108,13 +108,8 @@ echo "finished"
 #
 ###############################################
 
-url="http://$DST/receive.cap"
-wget $url
+tshark -r test.pcap -2Y "tcp.analysis.ack_rtt" -T fields -e tcp.analysis.ack_rtt > latency.txt
 
-tshark -r send.cap -T json >send.json
-tshark -r receive.cap -T json >receive.json
-
-python3 ./pcap.py -s $SRC -d $DST
 
 if [ ! -f "tcp_Retr" ];then
 	g++ -o tcp_Retr tcp_Retr.cpp
@@ -140,7 +135,9 @@ if [ "$PROTOCOL" == "TCP" ];then
 else
 	mv jitter.txt ./$PREFIX
 fi
-
-rm *.txt
-rm *.json
-rm *.cap
+if [ -f *.txt ];then
+	rm *.txt
+fi
+if [ -f *.cap ];then
+	rm *.cap
+fi
