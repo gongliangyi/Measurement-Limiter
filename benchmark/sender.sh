@@ -93,6 +93,7 @@ PREFIX=$PREFIX$STREAM_NUMBER'S'$SPEED'Mbps'
 if [ ISLIMIT ];then
 	wondershaper -c -a $DEV
 	tc qd del dev $DEV root
+
 	$LIMIT_COMMAND
 fi
 
