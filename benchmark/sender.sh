@@ -136,6 +136,7 @@ if [ "$PROTOCOL" == "TCP" ];then
 else
 	mv jitter.txt ./$PREFIX
 fi
+
 if [ -f *.txt ];then
 	rm *.txt
 fi
