@@ -11,4 +11,5 @@ make install
 ldconfig
 iperf3 -v
 cd ~
+apt install lrzsz
 
