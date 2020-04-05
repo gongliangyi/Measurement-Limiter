@@ -97,7 +97,7 @@ if [ ISLIMIT ];then
 	$LIMIT_COMMAND
 fi
 
-(iperf3 &); (testspeed &); (timeout 35 bash ./cpu_overhead.sh >> cpu.txt &); (latency &)
+(iperf3 &); (testspeed &); (latency &)
 
 sleep 45
 echo "finished"
@@ -137,9 +137,9 @@ else
 	mv jitter.txt ./$PREFIX
 fi
 
-if [ -f *.txt ];then
+if [[ `ls | grep .txt` ]];then
 	rm *.txt
 fi
-if [ -f *.cap ];then
+if [[ `ls | grep .cap` ]];then
 	rm *.cap
 fi
