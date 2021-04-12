@@ -1,0 +1,3 @@
+config NET_SCH_TSF
+	tristate "TSF"
+        depends on NET_SCHED
